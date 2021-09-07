@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 import {CheckCircleIcon} from '@heroicons/react/solid'
 import { useRouter } from 'next/router'
 
