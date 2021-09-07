@@ -5,7 +5,7 @@ import Currency from "react-currency-formatter"
 import { useDispatch } from 'react-redux';
 import {addToBasket, removeFromBasket} from "../slices/basketSlice";
 
-function CheckoutProduct({id, title, price, rating, description, category, image, hasPrime}) {
+function  CheckoutProduct({id, title, price, rating, description, category, image, hasPrime}) {
     const dispatch = useDispatch();
     const addItemToCart = () => {
         const product = {
