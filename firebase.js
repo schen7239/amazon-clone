@@ -2,12 +2,12 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCn0F1bd0nY2TQpjd6LQ1LQ6bZz0z9jrdQ",
-  authDomain: "324902.firebaseapp.com",
-  projectId: "amazon-324902",
-  storageBucket: "amazon-324902.appspot.com",
-  messagingSenderId: "902617857437",
-  appId: "1:902617857437:web:8a441fc314d19cc3db0374"
+  apiKey: "AIzaSyD71671PkZvtmvrvf0sqiqGBSCvSu0soxI",
+  authDomain: "clone-325614.firebaseapp.com",
+  projectId: "amazon-clone-325614",
+  storageBucket: "amazon-clone-325614.appspot.com",
+  messagingSenderId: "117274096279",
+  appId: "1:117274096279:web:3717451fa058a1bd96afd2"
 };
 
   
