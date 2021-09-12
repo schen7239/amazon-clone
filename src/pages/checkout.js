@@ -23,7 +23,7 @@ function Checkout() {
     const checkoutSession = await axios.post('/api/create-checkout-session', {
         items: items,
         email: session.user.email
-    }).catch(error => {
+    }).catch((error) => {
         console.log(error.message);
     });
 

@@ -20,9 +20,10 @@ export default function Home({productFeedProducts}) {
 
 export async function getServerSideProps(content) {
   const productFeedProducts = await fetch('https://fakestoreapi.com/products').then(res => res.json());
+
   return {
     props: {
       productFeedProducts
     }
   }
-}z
+}
