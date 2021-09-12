@@ -7,6 +7,7 @@ export default function Home({productFeedProducts}) {
   return (
     <div className="bg-gray-100">
       <Head>
+        
         <title>Amazon.com. Spend less. Smile more.</title>
       </Head>
       <Header />
