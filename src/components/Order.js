@@ -1,4 +1,3 @@
-import { CurrencyEuroIcon } from "@heroicons/react/solid";
 import moment from "moment";
 import Currency from 'react-currency-formatter';
 
