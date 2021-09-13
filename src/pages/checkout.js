@@ -23,8 +23,6 @@ function Checkout() {
     const checkoutSession = await axios.post(`/api/create-checkout-session`, {
         items: items,
         email: session.user.email
-    }).catch((error) => {
-        console.log('ERROR' ,error.message);
     });
 
     // redirects user to the stripe checkout
